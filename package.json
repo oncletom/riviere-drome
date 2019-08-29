@@ -1,0 +1,24 @@
+{
+  "name": "riviere-drome",
+  "version": "1.0.0",
+  "description": "Visualisation de la rivière Drôme en tant qu'écosystème — intrants (affluents, pollutions), extrants (puits, forages) et zones protégées (les Ramières).",
+  "main": "main.js",
+  "scripts": {
+    "start": "http-server --port 4000 --gzip --silent -o -c-1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oncletom/riviere-drome.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oncletom/riviere-drome/issues"
+  },
+  "homepage": "https://github.com/oncletom/riviere-drome#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}
